@@ -555,14 +555,14 @@ footer p {
     }
 
     .hero-logo {
-    osition: static;
+   position: static;
     display: block;
     width: 120px;
     max-width: 40%;
     height: auto;
     margin: 0 auto;
     order: -1;
-    transform: translateY(150px);
+    transform: translate(20px, 150px);
     }
     
 
