@@ -521,11 +521,11 @@ footer p {
     /* Главный экран */
     .hero {
         min-height: auto;
-        padding: 210px 30px 90px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
+    padding: 200px 30px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
     }
 
     .hero-text {
