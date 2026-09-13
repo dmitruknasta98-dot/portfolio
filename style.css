@@ -560,8 +560,9 @@ footer p {
     width: 120px;
     max-width: 40%;
     height: auto;
-    margin: 0 auto 5px;
+    margin: 0 auto 20px;
     order: -1;
+    transform: none;
     }
     
 
