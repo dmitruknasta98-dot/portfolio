@@ -773,28 +773,35 @@ footer p {
 @media (min-width: 769px) and (max-width: 1100px) {
 
     .hero {
-        min-height: auto;
-        padding: 160px 50px 100px;
+        min-height: 100vh;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        padding: 220px 50px 100px;
         position: relative;
-    }
-
-    .hero-logo {
-        position: static;
-        display: block;
-        width: 140px;
-        max-width: 40%;
-        height: auto;
-        margin: 0 auto 50px;
-        order: -1;
-        transform: none;
+        overflow: hidden;
     }
 
     .hero-text {
         width: 100%;
-        max-width: 100%;
-        order: 1;
+        max-width: 700px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .hero-logo {
+        position: absolute;
+        top: 140px;
+        left: 50px;
+        right: auto;
+        width: 120px;
+        height: auto;
+        margin: 0;
+        transform: none;
+        opacity: 0.75;
+        z-index: 1;
+    }
+
+    .hero-decoration {
+        display: none;
     }
 }
