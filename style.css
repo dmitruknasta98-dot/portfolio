@@ -775,10 +775,26 @@ footer p {
     .hero {
         min-height: 100vh;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         padding: 220px 50px 100px;
         position: relative;
         overflow: hidden;
+    }
+
+    .hero-logo {
+        position: absolute;
+        top: 130px;
+        left: 50%;
+        right: auto;
+
+        width: 120px;
+        height: auto;
+
+        margin: 0;
+        transform: translateX(-50%);
+
+        opacity: 0.75;
+        z-index: 1;
     }
 
     .hero-text {
@@ -788,18 +804,10 @@ footer p {
         z-index: 2;
     }
 
-    .hero-logo {
-        position: absolute;
-        top: 140px;
-        left: 50px;
-        right: auto;
-        width: 120px;
-        height: auto;
-        margin: 0;
-        transform: none;
-        opacity: 0.75;
-        z-index: 1;
+    .hero-decoration {
+        display: none;
     }
+}
 
     .hero-decoration {
         display: none;
