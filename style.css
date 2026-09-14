@@ -919,3 +919,24 @@ footer p {
         padding: 30px 50px;
     }
 }
+@media (max-width: 768px) {
+
+    .hero {
+        position: relative;
+    }
+
+    .hero-logo {
+        position: absolute;
+        top: 330px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: auto;
+    }
+
+    .hero-text {
+        position: relative;
+        z-index: 2;
+    }
+
+}
