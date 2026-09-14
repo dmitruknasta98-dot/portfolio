@@ -922,7 +922,7 @@ footer p {
 @media (min-width: 769px) and (max-width: 1100px) {
     .hero-logo {
         position: absolute;
-        top: 160px;
+        top: 210px;
         left: 50%;
         right: auto;
         transform: translateX(-50%);
