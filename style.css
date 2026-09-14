@@ -808,3 +808,114 @@ footer p {
         display: none;
     }
 }
+/* Планшет — вертикальное положение */
+@media (min-width: 769px) and (max-width: 1100px) and (orientation: portrait) {
+
+    /* Шапка */
+    header {
+        padding: 22px 40px;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* Главный экран */
+    .hero {
+        min-height: 100vh;
+        padding: 220px 50px 100px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 58px;
+        line-height: 1.08;
+        max-width: 750px;
+    }
+
+    .hero-text > p:not(.small-title) {
+        font-size: 17px;
+        max-width: 600px;
+    }
+
+    .hero-logo {
+        width: 120px;
+        top: 110px;
+    }
+
+    /* Про мене */
+    .about {
+        padding: 100px 50px;
+    }
+
+    .about h2 {
+        font-size: 48px;
+    }
+
+    .about p {
+        font-size: 18px;
+        max-width: 750px;
+    }
+
+    /* Портфоліо */
+    .portfolio {
+        padding: 100px 50px;
+    }
+
+    .portfolio h2 {
+        font-size: 48px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px 30px;
+    }
+
+    .project-horizontal {
+        width: 85%;
+    }
+
+    /* Навички */
+    .skills {
+        padding: 110px 50px;
+    }
+
+    .skills-heading h2 {
+        font-size: 48px;
+    }
+
+    .skill {
+        grid-template-columns: 70px 1fr;
+        padding: 26px 0;
+    }
+
+    .skill h3 {
+        font-size: 24px;
+    }
+
+    /* Контакти */
+    .contacts {
+        padding: 120px 50px;
+    }
+
+    .contacts-content h2 {
+        font-size: 58px;
+    }
+
+    .contacts-content > p {
+        font-size: 17px;
+        max-width: 600px;
+    }
+
+    /* Футер */
+    footer {
+        padding: 30px 50px;
+    }
+}
